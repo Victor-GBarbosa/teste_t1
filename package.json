@@ -1,0 +1,24 @@
+{
+  "name": "teste_at",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js ",
+  "scripts": {
+    "test": "jest",
+    "run":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-Castro19/teste_t1.git"
+  },
+  "author": "",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/Gustavo-Castro19/teste_t1/issues"
+  },
+  "homepage": "https://github.com/Gustavo-Castro19/teste_t1#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0"
+  }
+}
