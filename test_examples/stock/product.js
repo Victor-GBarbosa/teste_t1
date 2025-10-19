@@ -1,28 +1,40 @@
-class Product{
-  #id; 
+class Product {
+  #id;
   #name;
   #price;
-  
-  constructor(id, name, price){
-    this.#id=id;
-    this.#name=name;
-    this.#price=price;
+  #stockQuantity;
+  #sells;
+
+  constructor(id, name, price, stockQuantity) {
+    this.#id = id;
+    this.#name = name;
+    this.#price = price;
+    this.#stockQuantity = stockQuantity;
+    this.#sells = 0;
   }
 
-  writeUp(){
+  writeUp() {
     return `id: ${this.#id}, name: ${this.#name}, price: ${this.#price}`;
   }
 
-  get id(){
+  get id() {
     return this.#id;
   }
 
-  get name(){
+  get name() {
     return this.#name;
   }
 
-  get price(){
+  get price() {
     return this.#price;
+  }
+
+  get stockQuantity() {
+    return this.#stockQuantity;
+  }
+
+  get sells() {
+    return this.#sells;
   }
 }
 export default Product;
